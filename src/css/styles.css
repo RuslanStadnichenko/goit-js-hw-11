@@ -4,9 +4,7 @@
   | default @import url()
   |============================
 */
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -22,4 +20,35 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.search-container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
 }
