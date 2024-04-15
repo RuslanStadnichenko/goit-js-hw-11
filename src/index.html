@@ -9,18 +9,18 @@
   </head>
   <body>
     <div class="search-container">
-      <form class="search-form" action="search.php" method="GET">
+      <form class="search-form js-search-form" action="search.php" method="GET">
         <input
-          class="search-input"
+          class="search-input js-search-input"
           type="text"
           name="query"
           placeholder="Пошук..."
-          required
         />
-        <button type="submit">Пошук</button>
+        <button class="search-btn" type="submit">Пошук</button>
       </form>
     </div>
-    <ul class="search-list"></ul>
+    <span class="loader"></span>
+    <ul class="gallery-list"></ul>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
