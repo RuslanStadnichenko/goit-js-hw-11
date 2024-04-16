@@ -7,20 +7,20 @@ export function createGallery(images) {
       <div class="image-details">
         <ul class="details-title">
          <li class="details-title-det">
-           <h3>Likes:</h3>
-           <p>${image.likes}</p>
+           <h3 class="title-info">Likes:</h3>
+           <p class="paragraph-info">${image.likes}</p>
          </li>
          <li class="details-title-det">
-           <h3>Views:</h3>
-           <p>${image.views}</p>
+           <h3 class="title-info">Views:</h3>
+           <p class="paragraph-info">${image.views}</p>
          </li>  
          <li class="details-title-det">
-           <h3>Comments:</h3>
-           <p>${image.comments}</p>
+           <h3 class="title-info">Comments:</h3>
+           <p class="paragraph-info">${image.comments}</p>
          </li>  
          <li class="details-title-det">
-           <h3>Downloads:</h3>
-           <p>${image.downloads}</p>
+           <h3 class="title-info">Downloads:</h3>
+           <p class="paragraph-info">${image.downloads}</p>
          </li>
         </ul>
       </div>
